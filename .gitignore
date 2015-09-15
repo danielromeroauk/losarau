@@ -1,10 +1,13 @@
 /app/storage
 /bootstrap/compiled.php
+/docs/2014
+/docs/2015
 /vendor
-composer.phar
-composer.lock
+
 .env.*.php
 .env.php
 .DS_Store
 .idea
+
+composer.phar
 Thumbs.db

@@ -21,16 +21,18 @@
           <span class="glyphicon glyphicon-ok"></span>
           Convocatorias abiertas <br />
           <small>
-            Inicio: Mayo 19 de 2015 HORA 8:00 AM <br />
-            Cierre: Mayo 22 de 2015 HORA 6:00 PM
+            Inicio: Septiembre 28 de 2015 HORA 8:00 AM <br />
+            Cierre: Septiembre 30 de 2015 HORA 6:00 PM
           </small>
         </h2>
-{{--
-        <p>La Fundación los Araucos invitó a participar en la <strong>convocatoria Nº 001 de 2014</strong> a todos los trabajadores y trabajadoras contratistas y subcontratistas que laboran o han laborado en los últimos tres (3) años, a partir de la solicitud del crédito en la industria petrolera de manera continua o discontinua por lo menos (12) meses, y que son o han sido beneficiarios de la convención colectiva de trabajo suscrita entre la Unión Sindical Obrera de la Industria del Petróleo “USO” Subdirectiva Arauca y la empresa Occidental de Colombia, Inc., en el departamento de Arauca, interesados en tramitar una solicitud de crédito para vivienda o proyectos productivos.</p>
---}}
 
-        <p>La dirección de la Fundación Los Araucos informa a todos los interesados en gestionar créditos en la convocatoria Nº 001 del 2015, que en esta convocatoria tendrán prioridad sin excepción las personas que asistieron a la Asamblea General Ordinaria realizada el día 27 de marzo del presente año.</p>
-        <p><a href="docs/convocatoria_001_2015.pdf" class="btn btn-success" target="_blank">Descargar convocatoria en PDF</a></p>
+        <p>
+            Se invita a participar a todos los trabajadores y trabajadoras contratistas y subcontratistas que laboran o han laborado en los últimos tres (3) años, a partir de la solicitud del crédito en la industria petrolera de manera continua o discontinua por lo menos (12) meses, y que son o han sido beneficiarios de la convención colectiva de trabajo suscrita entre la Unión Sindical Obrera de la Industria del Petróleo “USO” Subdirectiva Arauca y la empresa Occidental de Colombia, Inc., en el departamento de Arauca, interesados en tramitar su solicitud de crédito para vivienda o proyectos productivos.
+        </p>
+{{--
+        <p>La dirección de la Fundación Los Araucos informó a todos los interesados en gestionar créditos en la convocatoria Nº 001 del 2015, que en esta convocatoria tendrían prioridad sin excepción las personas que asistieron a la Asamblea General Ordinaria realizada el día 27 de marzo del presente año.</p>
+--}}
+        <p><a href="docs/convocatoria_002_2015.pdf" class="btn btn-success" target="_blank">Descargar convocatoria en PDF</a></p>
 
       </section>{{-- /#convocatorias --}}
 

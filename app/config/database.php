@@ -66,7 +66,7 @@ return array(
 		'mysql_local' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'losarau',
+			'database'  => 'losarau_cos',
 			'username'  => 'homestead',
 			'password'  => 'secret',
 			'charset'   => 'utf8',

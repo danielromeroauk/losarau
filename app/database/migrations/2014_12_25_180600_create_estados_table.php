@@ -15,15 +15,23 @@ class CreateEstadosTable extends Migration {
 		Schema::create('estados', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('concepto');
-			$table->decimal('vencido', 16, 2);
-			$table->decimal('no_vencido', 16, 2);
 			$table->integer('user_id')->unsigned();
+			$table->string('pagare');
+			$table->string('estado');
+			$table->integer('capital');
+			$table->integer('intereses');
+			$table->integer('mora');
+			$table->integer('seguro');
+			$table->integer('idiferido');
+			$table->integer('asistencia');
+			$table->integer('cinversion');
+			$table->integer('icausado');
+			$table->integer('total');
 			$table->timestamps();
 
 			$table->foreign('user_id')
 				->references('id')->on('users')
-				->onDelete('NO ACTION')
+				->onDelete('CASCADE')
 				->onUpdate('CASCADE');
 		});
 	}

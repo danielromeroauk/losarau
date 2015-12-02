@@ -1,14 +1,14 @@
 <?php
 
-class Pago extends \Eloquent {
+class Abono extends \Eloquent {
 
 	protected $fillable = [];
 
-	protected $table = 'pagos';
+	protected $table = 'abonos';
 
 	public function user()
 	{
 		return $this->belongsTo('User');
 	}
 
-} #Pago
+}

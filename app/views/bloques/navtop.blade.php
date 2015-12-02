@@ -74,6 +74,29 @@
                   Cambiar mi clave
                 </a>
               </li>
+
+              @if(Auth::user()->nit == '1116786822')
+                  <li class="divider"></li>
+                  <li>
+                      <a href="{{ route('subir_archivos') }}">
+                      <span class="glyphicon glyphicon-upload"></span>
+                        Subir archivos
+                      </a>
+                  </li>
+                  <li>
+                      <a href="{{ url('registrar-abonos') }}">
+                      <span class="glyphicon glyphicon-usd"></span>
+                        Registrar abonos
+                      </a>
+                  </li>
+                  <li>
+                      <a href="{{ url('registrar-estados') }}">
+                      <span class="glyphicon glyphicon-tasks"></span>
+                        Registrar estados
+                      </a>
+                  </li>
+              @endif
+
               <li class="divider"></li>
               <li>
                 <a href="{{ route('logout') }}">

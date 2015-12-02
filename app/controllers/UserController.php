@@ -86,8 +86,10 @@ class UserController extends \BaseController {
 	public function estado_cuenta()
 	{
 		$user = User::find(Auth::user()->id);
+        $abonos = Abono::where('user_id', $user->id)->orderBy('fecha_pago', 'desc')->get();
+        $estados = Estado::where('user_id', $user->id)->orderBy('id', 'desc')->get();
 
-		return View::make('users.cuenta', compact('user'));
+		return View::make('users.cuenta', compact('user', 'abonos', 'estados'));
 	}
 
 	public function login()

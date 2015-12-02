@@ -11,4 +11,4 @@ class Estado extends \Eloquent {
 		return $this->belongsTo('User');
 	}
 
-} #Estado
+}

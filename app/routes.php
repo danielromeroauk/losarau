@@ -82,7 +82,7 @@ Route::group(['before' => 'auth'], function()
 		'uses' => 'HomeController@subir_archivo'
 	]);
 
-	Route::get('registrar-pagos', 'HomeController@registrar_pagos');
+	Route::get('registrar-abonos', 'HomeController@registrar_abonos');
 	Route::get('registrar-estados', 'HomeController@registrar_estados');
 
 }); #auth
